@@ -5,6 +5,10 @@ plugins {
 }
 apply from: 'gretty.plugin'
 
+war{
+    archiveName 'HelloJWeb.war'
+}
+
 group 'WLW016134'
 version '1.0-SNAPSHOT'
 
